@@ -49,8 +49,6 @@
 
 ## License
 - MIT
-
-
 ### Kindly note the collage editor is deployed in another repo as it is a next.js app deployed in vercel. The repo link for Collage editor 
 
 [picfuse.io](https://github.com/codebyNJ/college-editor.git)
