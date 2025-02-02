@@ -13,31 +13,18 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
+  <a href="#techstack">TechStack</a> •
   <a href="#license">License</a>
 </p>
 
+
 ## Key Features
 
-- **High-Quality Templates**: Choose from a variety of professionally designed templates to create stunning collages.
-- **No Login Required**: Access all features without the hassle of creating an account.
-- **AI Collage Generation**: Utilize AI to automatically generate personalized collages.
-- **Advanced Collage Editor**: Customize your collages with a comprehensive set of editing tools.
+* High Quality Templates
+* No login Required
+* AI collage generation features
+* Advance collage editor
 
-## Product used
-
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,figma)](https://skillicons.dev)
-
-## How to Use
-
-1. **Visit the Application**: Navigate to the [PicFusIO platform](https://pic-fus-io.vercel.app/).
-2. **Select a Template**: Browse and choose a template that suits your needs.
-3. **Upload Images**: Add your photos to the selected template.
-4. **Customize**: Use the advanced editor to adjust layouts, apply filters, and make other modifications.
-5. **Generate with AI**: Optionally, let the AI suggest or create a collage for you.
-
-For more information, visit the [add your secont repo link here](https://github.com/codebyNJ/PicFusIO).
 
 ## **🎥 Demo Video in Youtube**  
 
@@ -45,3 +32,20 @@ For more information, visit the [add your secont repo link here](https://github.
 
 **👉 [Click here to watch the film on YouTube!](https://youtu.be/Fj2XEcvH5EY)**  
 
+---
+
+## How To Use
+
+- Click the URL [PicFus.io](https://pic-fus-io.vercel.app/)
+
+## TechStack 
+
+[![My Skills](https://skillicons.dev/icons?i=js,css,nextjs,nodejs,react,ts)](https://skillicons.dev) 
+
+## License
+- MIT
+
+
+### Kindly note the collage editor is deployed in another repo as it is a next.js app deployed in vercel. The repo link for Collage editor 
+
+[https://github.com/codebyNJ/college-editor.git](https://github.com/codebyNJ/college-editor.git)
