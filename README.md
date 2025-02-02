@@ -29,39 +29,4 @@
 * AI collage generation features
 * Advance collage editor
 
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Android Studio](https://developer.android.com/) (which comes with [kotlin](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/codebyNJ/offyai.git
-
-# Go into the repository
-$ cd offyai
-```
-
-Open the android folder in Android Studio.
-
-
-## Download
-
-You can [download](https://offyai.netlify.app/) the latest installable version of OffyAI for Android.
-
-
-## Credits
-
-- Mediapipe
-- Dropbox
-- React.js
-- Android Studio
-
-
-## License
-
-MIT
-
----
-
-> GitHub [@codebyNJ](https://github.com/codebyNJ) &nbsp;&middot;&nbsp;
 
