@@ -22,7 +22,7 @@
 
 - **High-Quality Templates**: Choose from a variety of professionally designed templates to create stunning collages.
 - **No Login Required**: Access all features without the hassle of creating an account.
-- **AI Collage Generation**: Utilize AI to automatically generate personalized collages.
+- **AI Collage Generation**: Utilize AI to automatically generate collages on any topic.
 - **Advanced Collage Editor**: Customize your collages with a comprehensive set of editing tools.
 
 
