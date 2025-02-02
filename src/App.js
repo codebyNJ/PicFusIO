@@ -87,7 +87,7 @@ function App() {
       </div>
 
       <footer>
-        © 2025 Phoie.AI. All Rights Reserved.
+        © 2025 PicFus.IO. All Rights Reserved.
       </footer>
     </div>
   );
