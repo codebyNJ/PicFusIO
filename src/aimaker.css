@@ -190,3 +190,69 @@ body {
     height: auto;
      /* Optionally, limit the height to keep the image within reasonable size */
   }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .head h2 {
+        font-size: 28px;
+    }
+    
+    .head p {
+        font-size: 16px;
+    }
+    
+    .rce {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .rce img {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .rce-text {
+        position: static;
+        padding: 10px 0;
+    }
+    
+    .rce-text h2 {
+        font-size: 20px;
+    }
+    
+    .rce-text h3 {
+        font-size: 16px;
+    }
+    
+    .rce-text p {
+        font-size: 14px;
+    }
+    
+    .input input,
+    .input select {
+        font-size: 16px;
+    }
+    
+    .input button {
+        font-size: 20px;
+    }
+}
+
+/* Small mobile view */
+@media screen and (max-width: 480px) {
+    .head h2 {
+        font-size: 24px;
+    }
+    
+    .content {
+        padding: 5px;
+    }
+    
+    .rce {
+        padding: 10px;
+    }
+}
