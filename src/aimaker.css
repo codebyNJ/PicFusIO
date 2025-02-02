@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.head {
+    text-align: center;
+    
+}
+
+.head h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 48px; /* Use this for adjusting header font size */
+    background: linear-gradient(to right, #FF5F6D, #FFC371);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 300;
+}
+
+.head p{
+    font-family: 'KoHo';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.head h5{
+    color: #FF5F6D;
+    font-family: 'KoHo';
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.prompt {
+    position: absolute;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between cards */
+    width: 45%;
+}
+
+.rce {
+   
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%; /* Adjust card width to fit */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.rce img {
+    width: 250px; /* Use this to adjust the image size */
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.rce-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    left: 280px; /* Adjust to align text on the side of the image */
+    top: 20px; /* Adjust position to fit */
+}
+
+.rce-text h2 {
+    color: #FF916F;
+    font-size: 22px; /* Adjust title size */
+    margin-bottom: 8px;
+}
+
+.rce-text h3 {
+    color: #FFC371;
+    font-size: 18px; /* Adjust heading size */
+    margin: 4px 0;
+}
+
+.rce-text p {
+    margin: 2px 0;
+    color: #ccc;
+    font-size: 16px; /* Use this to adjust paragraph size */
+}
+
+.input {
+    width: 40%;
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.input input, 
+.input button, 
+.input img {
+    margin: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+
+
+.input input {
+    background: transparent;
+    color: white;
+    border: 3px solid #FF5F6D;
+    padding: 10px;
+    font-family: 'KoHo';
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.input select {
+    background-color: transparent; /* Makes the background transparent */
+    color: white;
+    border: 3px solid #FF5F6D; /* Border color */
+    padding: 10px; /* Padding for spacing */
+    font-family: 'KoHo'; /* Font for the dropdown */
+    font-size: 20px; /* Font size */
+    border-radius: 10px; /* Rounded corners */
+    width: 100%; /* Ensure the dropdown takes up similar width as the input */
+    max-width: 420px; /* Maximum width */
+    appearance: none; /* Removes default dropdown styling */
+    cursor: pointer; /* Cursor changes to pointer when hovering */
+    
+}
+
+.input select:focus {
+    outline: none; /* Removes the focus outline */
+    border-color: #FF5F6D /* Border color on focus */
+}
+
+.input select option:first-child {
+    color: #aaa; /* Light gray color for the guide text */
+}
+.input select option {
+    background-color: black;  /* Black background for options */
+    color: white;  /* White text for options */
+}
+
+.input button {
+    border: none;
+    color: black;
+    font-family: 'Koho';
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #FF5F6D , #FFC371);
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.generated-image-container {
+    position: absolute;
+    right: 150px;
+    top: 450px;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    width: 200px; /* Same width as the button */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .generated-image {
+    width: 300px; 
+    height: auto;
+     /* Optionally, limit the height to keep the image within reasonable size */
+  }
