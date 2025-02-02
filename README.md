@@ -20,10 +20,19 @@
 
 ## Key Features
 
-* High Quality Templates
-* No login Required
-* AI collage generation features
-* Advance collage editor
+- **High-Quality Templates**: Choose from a variety of professionally designed templates to create stunning collages.
+- **No Login Required**: Access all features without the hassle of creating an account.
+- **AI Collage Generation**: Utilize AI to automatically generate personalized collages.
+- **Advanced Collage Editor**: Customize your collages with a comprehensive set of editing tools.
+
+
+## How to Use
+
+1. **Visit the Application**: Navigate to the [PicFusIO platform](https://pic-fus-io.vercel.app/).
+2. **Select a Template**: Browse and choose a template that suits your needs.
+3. **Upload Images**: Add your photos to the selected template.
+4. **Customize**: Use the advanced editor to adjust layouts, apply filters, and make other modifications.
+5. **Generate with AI**: Optionally, let the AI suggest or create a collage for you.
 
 
 ## **🎥 Demo Video in Youtube**  
@@ -33,10 +42,6 @@
 **👉 [Click here to watch the film on YouTube!](https://youtu.be/Fj2XEcvH5EY)**  
 
 ---
-
-## How To Use
-
-- Click the URL [PicFus.io](https://pic-fus-io.vercel.app/)
 
 ## TechStack 
 
@@ -48,4 +53,4 @@
 
 ### Kindly note the collage editor is deployed in another repo as it is a next.js app deployed in vercel. The repo link for Collage editor 
 
-[https://github.com/codebyNJ/college-editor.git](https://github.com/codebyNJ/college-editor.git)
+[picfuse.io](https://github.com/codebyNJ/college-editor.git)
