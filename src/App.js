@@ -29,7 +29,7 @@ function App() {
         </div>
         <ul className={`nav ${menuOpen ? "responsive" : ""}`}>
           <li><Link to="/aimaker"><span>AI Maker</span></Link></li>
-          <li><a href="#">Collage Editor</a></li>
+          <li><a href="https://dummy-two-pied.vercel.app/">Collage Editor</a></li>
         </ul>
       </nav>
 
@@ -39,7 +39,7 @@ function App() {
           <br/>
           <span>COLLAGE</span> MAKER
         </h2>
-        <button><span>GET STARTED</span></button>
+        <button onClick={() => window.open('https://dummy-two-pied.vercel.app/', '_blank', 'noopener,noreferrer')}><span>GET STARTED</span></button>
         
         {/* Insert video here */}
         <div className="video-container">
