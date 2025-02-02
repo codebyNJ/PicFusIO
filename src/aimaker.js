@@ -101,7 +101,7 @@ const Aimaker = () => {
 
           <input
             type="text"
-            placeholder="Enter second prompt"
+            placeholder="Enter prompt"
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
           />
