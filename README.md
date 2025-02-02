@@ -25,6 +25,10 @@
 - **AI Collage Generation**: Utilize AI to automatically generate personalized collages.
 - **Advanced Collage Editor**: Customize your collages with a comprehensive set of editing tools.
 
+## Product used
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,figma)](https://skillicons.dev)
+
 ## How to Use
 
 1. **Visit the Application**: Navigate to the [PicFusIO platform](https://pic-fus-io.vercel.app/).
